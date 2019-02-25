@@ -1,0 +1,22 @@
+.hero {
+    background-image: url("img/back.jpg") ;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+
+.text{
+    size: 70px !important;
+    color: #19c880 !important;
+    font: bold !important;
+    font-weight: bold !important;
+    margin-right: 30px !important;
+    margin-left: 30px !important;
+}
+
+.text1{
+    color: #19c880 !important; 
+    font-size: 40px !important; 
+    size: 120px !important;
+    margin-top: 200px  !important;
+}
