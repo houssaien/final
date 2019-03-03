@@ -1,9 +1,11 @@
 .hero {
-    background-image: url("img/back.jpg") ;
+    gitbackground-image: url("img/back.jpg") ;
     background-size: cover;
     width: 100%;
     height: 750px;
 }
+
+
 
 .text{
     size: 70px !important;
