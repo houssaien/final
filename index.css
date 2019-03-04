@@ -262,18 +262,26 @@
     text-align: center  !important;
     font-size: 20px;
 }
+.footer{
 
-foo-nav {
+	 padding: 20px;
+	 padding-top: 47px !important;
+  
+     background-color: rgb(32, 32, 32);
+  
+     color: rgb(212, 211, 211);
+}
+.foo-nav {
 
     text-decoration: none;
 
     margin-top: 17px;
 
-    margin-bottom: 64px;
-
-    margin-left: -24%;
+    margin-bottom: 64px;  
 
 }
+
+
 
 .men-foo a{
 
@@ -283,21 +291,7 @@ foo-nav {
 
     text-decoration: none;
 
-    color: rgb(156, 156, 156);
-
-    
-
-}
-
-.men-foo{
-
-    margin-top: 12px;
-
-}
-
-.foo-nav1{
-
-    margin-left: -62%;
+    color: rgb(156, 156, 156);  
 
 }
 .copy{
@@ -308,28 +302,10 @@ foo-nav {
  
     text-align: center;
 }
-    .footer{
-
-       padding: 20px;
-     
-        background-color: rgb(32, 32, 32);
-     
-        color: rgb(212, 211, 211);
-     
-     }
-     
-     .fo{
-     
-        color: gray;
-     
-        font-family: sans-serif;
-     
-        size: 30px;
-     
-        text-decoration: none;
-     
-     }
-
+.foo-nav h4{
+	font-size: 1.5rem;
+	
+}
      .page-header-overlay {
         background: rgba(21,20,33,.5);
         height: 390px;
@@ -550,7 +526,7 @@ p a
 	display: inline;
 	position: relative;
 	color: inherit;
-	border-bottom: solid 1px #ffa07f;
+	border-bottom: solid 1px #19c880;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -567,12 +543,12 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #FF6347;
+	color: #19c880;;
 }
 p a:hover
 {
 	color: #FFFFFF;
-	background: #ffa07f;
+	background: #19c880;
 }
 p a:hover::after
 {
@@ -1796,4 +1772,13 @@ section
 .news_post_button:hover
 {
 	box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+
+.title{
+    font-size: 55px !important; 
+    size: 120px !important;
+  
+    color: #19c880 !important;
+    font-weight: bold !important;
+    margin-left: 350px !important;
 }

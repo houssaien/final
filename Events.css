@@ -6,17 +6,13 @@
     
 }
 .title{
-    color: white; 
+    
     font-size: 55px !important; 
     size: 120px !important;
-    margin-top: 269px  !important;
-    border: transparent;
-    background-color:#19c880; 
-    
-    width: 41%;
-    height: 92px;
-    text-align: center !important;
-    margin-left: 45%;
+    margin-top: 200px  !important;
+    color: #19c880 !important;
+    font-weight: bold !important;
+    margin-left: 350px !important;
 }
 .card-even1{
     margin-top: 62px;
