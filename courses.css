@@ -42,12 +42,14 @@
 }
 .liste{
     margin-top: 50px;
+    max-width: 954px !important;
 }
 .row2{
     margin-top: 50px;
 }
 .card-footer{
     display: flex;
+    justify-content: space-between !important;
 }
 .card-footer p{
     color: #19c880;
@@ -79,55 +81,49 @@
     border-color: #19c880 !important;
     width: 131% !important;
     height: 47px;
-    margin-left: 292%;
+    margin-left: 244%;
     margin-top: 84px;
 
 }
 
-
-
 .footer{
-    margin-top: 127px;
-    background-color: rgb(32, 32, 32);
-    color: rgb(212, 211, 211);
-    padding: 20px;
-}
-.fo{
-    color: gray;
-    font-family: sans-serif;
-    size: 30px;
-    text-decoration: none;
-}
-.copy{
-    color: rgb(156, 156, 156);
-    size: 12px;
-    margin-top: 30px;
-    text-align: center;
 
+    padding: 20px;
+  
+     background-color: rgb(32, 32, 32);
+  
+     color: rgb(212, 211, 211);
 }
 .foo-nav {
+
     text-decoration: none;
+
     margin-top: 17px;
-    margin-bottom: 64px;
-    margin-left: -24%;
+
+    margin-bottom: 64px;  
 
 }
+
 .men-foo a{
+
     display: flex;
+
     flex-direction: column;
+
     text-decoration: none;
+
     color: rgb(156, 156, 156);
+
     
-}
 
-.foo-nav1{
-    margin-left: -62%;
 }
-.footer hr{
+.copy{
+
     color: rgb(156, 156, 156);
-    width: 80%;
-
-
+ 
+    size: 12px;
+ 
+    text-align: center;
 }
 
 .listeHidden{
@@ -141,7 +137,7 @@
 
 
 
-@media only screen and (min-width : 300px) and (max-width : 480px)
+@media only screen  and (max-width : 512px)
 {
     .title{
         width: 94%;
@@ -153,7 +149,7 @@
     }
     .btn1{
     
-    margin-left: 26%;
+        margin-left: 91%;
     }
     .foo-nav{
         margin-left: 16%;

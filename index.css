@@ -260,18 +260,26 @@
     text-align: center  !important;
     font-size: 20px;
 }
+.footer{
 
-foo-nav {
+	 padding: 20px;
+	 padding-top: 47px !important;
+  
+     background-color: rgb(32, 32, 32);
+  
+     color: rgb(212, 211, 211);
+}
+.foo-nav {
 
     text-decoration: none;
 
     margin-top: 17px;
 
-    margin-bottom: 64px;
-
-    margin-left: -24%;
+    margin-bottom: 64px;  
 
 }
+
+
 
 .men-foo a{
 
@@ -281,21 +289,7 @@ foo-nav {
 
     text-decoration: none;
 
-    color: rgb(156, 156, 156);
-
-    
-
-}
-
-.men-foo{
-
-    margin-top: 12px;
-
-}
-
-.foo-nav1{
-
-    margin-left: -62%;
+    color: rgb(156, 156, 156);  
 
 }
 .copy{
@@ -306,28 +300,10 @@ foo-nav {
  
     text-align: center;
 }
-    .footer{
-
-       padding: 20px;
-     
-        background-color: rgb(32, 32, 32);
-     
-        color: rgb(212, 211, 211);
-     
-     }
-     
-     .fo{
-     
-        color: gray;
-     
-        font-family: sans-serif;
-     
-        size: 30px;
-     
-        text-decoration: none;
-     
-     }
-
+.foo-nav h4{
+	font-size: 1.5rem;
+	
+}
      .page-header-overlay {
         background: rgba(21,20,33,.5);
         height: 390px;
